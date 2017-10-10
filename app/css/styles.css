@@ -1,0 +1,231 @@
+.header {
+  margin: 0;
+  background-color: #2e2e33;
+  border-bottom: solid 1px #38363a; }
+  .header__wrapper {
+    width: 1000px;
+    margin: 0 auto; }
+  .header__logo {
+    display: inline-block;
+    padding-top: 15px;
+    width: 300px;
+    position: relative; }
+  .header__menu {
+    vertical-align: top;
+    font-size: 16px;
+    font-family: "ProximaNova Regular", sans-serif;
+    display: inline-block;
+    float: right; }
+  .header__menu-link {
+    text-decoration: none;
+    color: #ffffff; }
+  .header__menu-link:hover {
+    color: #79a0d8; }
+  .header__menu-item {
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 15px 0px 15px 35px; }
+  .header__menu-item:last-child {
+    margin-right: 0px;
+    margin-left: 45px; }
+  .header__download-btn {
+    text-decoration: none;
+    background-color: #5e9ffb;
+    color: #ffffff;
+    width: 129px;
+    height: 32px;
+    border-radius: 8px;
+    padding: 10px 27px;
+    box-shadow: 0 2px 2px #4e6e9b; }
+  .header__download-btn:hover {
+    background-color: #458df4; }
+
+.red_circle {
+  background-color: red;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 4px; }
+
+.pricing {
+  background-color: #e9e9e9; }
+  .pricing__wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px; }
+  .pricing__text_block {
+    display: inline-block;
+    width: 300px; }
+  .pricing .red_line {
+    width: 20px;
+    height: 0px;
+    border-bottom: solid #c75056 2px; }
+  .pricing__title {
+    max-width: 300px;
+    font-family: 'ProximaNova Semibold', sans-serif;
+    color: #353035;
+    font-size: 28px;
+    line-height: 1.15;
+    padding: 0 0 25px 0; }
+  .pricing__list-item {
+    max-width: 300px;
+    color: #353035;
+    font-family: 'ProximaNova Regular', sans-serif;
+    font-size: 18px;
+    line-height: 14px;
+    padding: 0 0 20px 0; }
+  .pricing__list-item:first-child {
+    padding: 30px 0 20px 0; }
+  .pricing__list-item:last-child {
+    padding: 0 0 80px 0; }
+  .pricing__plans {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px 0 38px; }
+    .pricing__plans-item {
+      position: relative;
+      width: 310px;
+      height: 100px;
+      border-radius: 5px;
+      border: solid 1px #efefef;
+      box-shadow: 0 1px 5px #c9cbce;
+      margin: 0 0 15px 0; }
+    .pricing__plans-item:first-child {
+      margin: 4px 0 15px 0; }
+  .pricing .wrapper_circle {
+    background-color: #f7f7f7;
+    display: inline-block;
+    border-right: solid 1px #efefef;
+    width: 88px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; }
+  .pricing .white_color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid #e3e5e8 1px;
+    background-color: white;
+    margin: 39px auto; }
+  .pricing .red_color {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #da5259;
+    margin: 5px auto;
+    display: none; }
+  .pricing .wrapper_text {
+    width: 215px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top; }
+  .pricing .plan_text {
+    color: #635e63;
+    font-family: 'ProximaNova Regular', sans-serif;
+    font-size: 18px;
+    margin: 24px auto;
+    width: 130px;
+    line-height: 1.25; }
+  .pricing .price {
+    color: #353035;
+    font-family: 'ProximaNova Bold', sans-serif;
+    font-size: 30px;
+    font-weight: 600; }
+  .pricing .months {
+    color: #353035;
+    font-family: 'ProximaNova Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 600; }
+  .pricing__result {
+    margin-top: 4px;
+    display: inline-block;
+    vertical-align: top;
+    width: 310px;
+    height: 290px;
+    border-radius: 5px;
+    border: solid 1px #efefef;
+    box-shadow: 0 1px 5px #c9cbce; }
+    .pricing__result-logo {
+      background: url("../img/ablogo.png") 67px 16px no-repeat;
+      width: 310px;
+      height: 65px;
+      border-bottom: solid 1px #efefef; }
+    .pricing__result-counter {
+      width: 310px;
+      height: 65px;
+      border-bottom: solid 1px #efefef;
+      background-color: #fbfbfb; }
+      .pricing__result-counter p {
+        display: inline-block;
+        padding: 25px 33px; }
+      .pricing__result-counter #quantity {
+        display: inline-block;
+        margin-left: 20px;
+        outline: none;
+        background-color: white;
+        border: solid grey 1px; }
+    .pricing__result-math {
+      border-top: solid 1px #efefef;
+      background-color: #fbfbfb;
+      padding: 25px 29px; }
+      .pricing__result-math p {
+        margin: 33px; }
+      .pricing__result-math .btn_location {
+        margin: 7px 0px; }
+      .pricing__result-math .activate_btn {
+        color: white;
+        background-color: #5e9ffb;
+        text-align: center;
+        width: 244px;
+        height: 47px;
+        padding: 15px 58px;
+        font-family: "ProximaNova Semibold", sans-serif;
+        font-size: 18px;
+        border-radius: 5px;
+        text-decoration: none;
+        box-shadow: 0px 2px 3px #2e2e33; }
+      .pricing__result-math .activate_btn:hover {
+        background-color: #458df4; }
+
+.pricing__plans-item.active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #da5259;
+  box-shadow: 0 1px 5px #c9cbce;
+  border-radius: 5px; }
+
+.pricing__plans-item.active .red_color {
+  display: block; }
+
+.legalinfo {
+  background-color: #2e2e33; }
+  .legalinfo__wrapper {
+    max-width: 1000px;
+    margin: 0 auto; }
+  .legalinfo__text {
+    display: inline;
+    max-width: 230px;
+    font-family: "ProximaNova Regular", sans-serif;
+    color: #65656a;
+    font-size: 14px; }
+  .legalinfo__list {
+    display: inline-block;
+    max-width: 385px;
+    margin-left: 384px; }
+  .legalinfo__list-item {
+    display: inline-block;
+    padding: 40px 20px; }
+  .legalinfo__list-item:last-child {
+    padding-right: 0px; }
+  .legalinfo__list-link {
+    color: #9a9a9c;
+    font-family: "ProximaNova Regular", sans-serif;
+    font-size: 14px;
+    text-decoration: none; }
