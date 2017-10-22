@@ -438,6 +438,7 @@ $proximaSemiBold: 'ProximaNova Semibold', sans-serif;
 
 	&__list {
 		display: inline-block;
+		float: right;
 
 	}
 
@@ -447,7 +448,7 @@ $proximaSemiBold: 'ProximaNova Semibold', sans-serif;
 	}
 
 	&__list-item:last-child {
-		padding-right: 0px;
+		padding-right: 0;
 	}
 
 	&__list-link {

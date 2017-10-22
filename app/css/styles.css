@@ -311,12 +311,13 @@
     font-size: 14px;
     padding-top: 40px; }
   .legalinfo__list {
-    display: inline-block; }
+    display: inline-block;
+    float: right; }
   .legalinfo__list-item {
     display: inline-block;
     padding: 40px 20px; }
   .legalinfo__list-item:last-child {
-    padding-right: 0px; }
+    padding-right: 0; }
   .legalinfo__list-link {
     color: #9a9a9c;
     font-family: "ProximaNova Regular", sans-serif;
